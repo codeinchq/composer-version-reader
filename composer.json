@@ -1,6 +1,6 @@
 {
   "name": "codeinc/composer-version-reader",
-  "version": "1.0.0",
+  "version": "1.0",
   "description": "Composer version reader",
   "homepage": "https://github.com/codeinchq/composer-version-reader",
   "type": "library",
