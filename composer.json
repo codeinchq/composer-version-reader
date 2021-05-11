@@ -1,0 +1,30 @@
+{
+  "name": "codeinc/composer-version-reader",
+  "version": "1.0.0",
+  "description": "Composer version reader",
+  "homepage": "https://github.com/codeinchq/composer-version-reader",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodeInc\\ComposerVersionReader\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Joan Fabrégat",
+      "email": "joan@codeinc.co",
+      "homepage": "https://www.codeinc.co",
+      "role": "developer"
+    }
+  ],
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  }
+}
